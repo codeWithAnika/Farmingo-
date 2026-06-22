@@ -17,8 +17,6 @@ const GoldButton: React.FC<GoldButtonProps> = ({
   className = '',
   variant = 'outline',
   size = 'md',
-  as: Tag = 'button',
-  href,
 }) => {
   const sizeClasses = {
     sm: 'px-6 py-3 text-[0.65rem]',

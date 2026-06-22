@@ -39,7 +39,7 @@ const Testimonials: React.FC = () => {
   const sectionRef = useRef<HTMLElement>(null)
   const headerRef = useRef<HTMLDivElement>(null)
   const [active, setActive] = useState(0)
-  const trackRef = useRef<HTMLDivElement>(null)
+  
 
   useEffect(() => {
     const ctx = gsap.context(() => {

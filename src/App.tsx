@@ -28,7 +28,7 @@ const App: React.FC = () => {
           duration: 1.4,
           easing: (t: number) => Math.min(1, 1.001 - Math.pow(2, -10 * t)),
           touchMultiplier: 2,
-          smoothTouch: false,
+          
         })
 
         const raf = (time: number) => {

@@ -141,7 +141,7 @@ const WhyFarmingo: React.FC = () => {
 
         {/* Feature grid */}
         <div ref={gridRef} className="grid md:grid-cols-2 lg:grid-cols-3 gap-px" style={{ background: 'rgba(246,179,50,0.08)' }}>
-          {features.map((feature, i) => (
+          {features.map((feature) => (
             <motion.div
               key={feature.title}
               className="feature-item p-8 relative group"

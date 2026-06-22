@@ -1,6 +1,6 @@
 import React, { useEffect, useRef, useState } from 'react'
 import { gsap, ScrollTrigger } from '../../lib/gsap'
-import { motion, AnimatePresence } from 'framer-motion'
+import { motion } from 'framer-motion'
 import productBox from '../../assets/product-box.png'
 
 const ProductShowcase: React.FC = () => {

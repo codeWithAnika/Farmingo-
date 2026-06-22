@@ -1,5 +1,5 @@
 import React, { useEffect, useRef } from 'react'
-import { gsap, ScrollTrigger } from '../../lib/gsap'
+import { gsap } from '../../lib/gsap'
 import fullMango from '../../assets/fullmango.png'
 import firstSlice from '../../assets/firstslice.png'
 import secondSlice from '../../assets/secondslice.png'
@@ -89,32 +89,7 @@ const CinematicSliceSection: React.FC = () => {
     return () => ctx.revert()
   }, [])
 
-  const qualityLabels = [
-    {
-      ref: label1Ref,
-      stage: 'FIRST SLICE',
-      title: 'GI Tagged',
-      sub: 'Ratnagiri Origin · Certified',
-      body: 'Geographical indication\nprotected since 2018',
-      align: 'right' as const,
-    },
-    {
-      ref: label2Ref,
-      stage: 'SECOND SLICE',
-      title: 'Naturally Ripened',
-      sub: 'Peak Sweetness',
-      body: '22–24° Brix sweetness,\nnever artificially ripened',
-      align: 'left' as const,
-    },
-    {
-      ref: label3Ref,
-      stage: 'THIRD SLICE',
-      title: 'Farm Fresh',
-      sub: 'Luxury Packaging',
-      body: 'Harvested & delivered\nwithin 24 hours',
-      align: 'right' as const,
-    },
-  ]
+  
 
   return (
     <section ref={sectionRef} id="cinematic" style={{ background: '#050807' }}>
